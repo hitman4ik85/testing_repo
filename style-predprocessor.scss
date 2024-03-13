@@ -18,3 +18,38 @@
     //     color: yellow;
     //     }
     }
+
+.general-block {
+    background-color: rgb(230, 35, 35);
+    height: 300px;
+    font-weight: bold;
+
+     &__div2 {
+         background-color: rgb(34, 195, 195)
+         color(rgb(56, 33, 231)); 
+
+        &-div3 {
+            background-color: rgb(180, 3, 127);
+            color: yellow;
+        }
+
+     }
+
+    }
+
+.general-block1 {
+    background-color: rgb(32, 94, 230);
+    height: 300px;
+    font-weight: bold;
+
+     &__div2 {
+         background-color: rgb(23, 188, 177)
+         color(rgb(212, 252, 11)); 
+
+        &-div3 {
+            background-color: rgb(180, 3, 94);
+            color: rgb(255, 0, 0);
+        }
+
+     }   
+}
